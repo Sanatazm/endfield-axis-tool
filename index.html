@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://cdnimg-v2.gamekee.com">
 <title>终末地排轴工具</title>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script src="./src/generated/axis-data.js"></script>
 <style>
 :root {
 --bg-color: #121212;
@@ -358,75 +359,13 @@ h1 { color: var(--text-color); font-size: clamp(24px, 5vw, 32px); font-weight: b
 </div>
 <script>
 // --- 配置与资源 ---
-const bgAssets = ["Sanatazm/endfield-axis-tool/BG1.png", "", "", "", "", "", "", "", "", ""];
+const bgAssets = window.axisData.bgAssets;
 const GITHUB_CDN_BASE = "https://cdn.jsdelivr.net/gh/";
-const SKILL_TYPES = ["重击", "战技", "连携技", "终结技"];
-const charAssets = {
-    "梨诺": { avatar: "Sanatazm/endfield-axis-tool/linuo.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/linuoS2.png", "连携技": "Sanatazm/endfield-axis-tool/linuoS3.png", "终结技": "Sanatazm/endfield-axis-tool/linuoS4.png" } },
-    "诀": { avatar: "Sanatazm/endfield-axis-tool/jue.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/jueS2.png", "连携技": "Sanatazm/endfield-axis-tool/jueS3.png", "终结技": "Sanatazm/endfield-axis-tool/jueS4.png" } },
-    "卡缪": { avatar: "Sanatazm/endfield-axis-tool/kamiu.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/kamiuS2.png", "连携技": "Sanatazm/endfield-axis-tool/kamiuS3.png", "终结技": "Sanatazm/endfield-axis-tool/kamiuS4.png" } },
-    "弭弗": { avatar: "Sanatazm/endfield-axis-tool/mifu.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/mifuS2.png", "连携技": "Sanatazm/endfield-axis-tool/mifuS3.png", "终结技": "Sanatazm/endfield-axis-tool/mifuS4.png" } },
-    "庄方宜": { avatar: "Sanatazm/endfield-axis-tool/zhuangfangyi.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/zhuangfangyiS2.png", "连携技": "Sanatazm/endfield-axis-tool/zhuangfangyiS3.png", "终结技": "Sanatazm/endfield-axis-tool/zhuangfangyiS4.png" } },
-    "阿列什": { avatar: "Sanatazm/endfield-axis-tool/alieshi.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/alieshiS2.png", "连携技": "Sanatazm/endfield-axis-tool/alieshiS3.png", "终结技": "Sanatazm/endfield-axis-tool/alieshiS4.png" } },
-    "埃特拉": { avatar: "Sanatazm/endfield-axis-tool/aitela.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/aitelaS2.png", "连携技": "Sanatazm/endfield-axis-tool/aitelaS3.png", "终结技": "Sanatazm/endfield-axis-tool/aitelaS4.png" } },
-    "艾尔黛拉": { avatar: "Sanatazm/endfield-axis-tool/aierdaila.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/aierdailaS2.png", "连携技": "Sanatazm/endfield-axis-tool/aierdailaS3.png", "终结技": "Sanatazm/endfield-axis-tool/aierdailaS4.png" } },
-    "艾维文娜": { avatar: "Sanatazm/endfield-axis-tool/aiweiwenna.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/aiweiwennaS2.png", "连携技": "Sanatazm/endfield-axis-tool/aiweiwennaS3.png", "终结技": "Sanatazm/endfield-axis-tool/aiweiwennaS4.png" } },
-    "安塔尔": { avatar: "Sanatazm/endfield-axis-tool/antaer.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/antaerS2.png", "连携技": "Sanatazm/endfield-axis-tool/antaerS3.png", "终结技": "Sanatazm/endfield-axis-tool/antaerS4.png" } },
-    "别礼": { avatar: "Sanatazm/endfield-axis-tool/bieli.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/bieliS2.png", "连携技": "Sanatazm/endfield-axis-tool/bieliS3.png", "终结技": "Sanatazm/endfield-axis-tool/bieliS4.png" } },
-    "陈千语": { avatar: "Sanatazm/endfield-axis-tool/chenqianyu.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/chenqianyuS2.png", "连携技": "Sanatazm/endfield-axis-tool/chenqianyuS3.png", "终结技": "Sanatazm/endfield-axis-tool/chenqianyuS4.png" } },
-    "大潘": { avatar: "Sanatazm/endfield-axis-tool/dapan.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/dapanS2.png", "连携技": "Sanatazm/endfield-axis-tool/dapanS3.png", "终结技": "Sanatazm/endfield-axis-tool/dapanS4.png" } },
-    "管理员": { avatar: "Sanatazm/endfield-axis-tool/guanliyuan.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/guanliyuanS2.png", "连携技": "Sanatazm/endfield-axis-tool/guanliyuanS3.png", "终结技": "Sanatazm/endfield-axis-tool/guanliyuanS4.png" } },
-    "弧光": { avatar: "Sanatazm/endfield-axis-tool/huguang.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/huguangS2.png", "连携技": "Sanatazm/endfield-axis-tool/huguangS3.png", "终结技": "Sanatazm/endfield-axis-tool/huguangS4.png" } },
-    "洁尔佩塔": { avatar: "Sanatazm/endfield-axis-tool/jieerpeita.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/jieerpeitaS2.png", "连携技": "Sanatazm/endfield-axis-tool/jieerpeitaS3.png", "终结技": "Sanatazm/endfield-axis-tool/jieerpeitaS4.png" } },
-    "骏卫": { avatar: "Sanatazm/endfield-axis-tool/junwei.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/junweiS2.png", "连携技": "Sanatazm/endfield-axis-tool/junweiS3.png", "终结技": "Sanatazm/endfield-axis-tool/junweiS4.png" } },
-    "卡契尔": { avatar: "Sanatazm/endfield-axis-tool/kaqier.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/kaqierS2.png", "连携技": "Sanatazm/endfield-axis-tool/kaqierS3.png", "终结技": "Sanatazm/endfield-axis-tool/kaqierS4.png" } },
-    "莱万汀": { avatar: "Sanatazm/endfield-axis-tool/laiwanting.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/laiwantingS2.png", "连携技": "Sanatazm/endfield-axis-tool/laiwantingS3.png", "终结技": "Sanatazm/endfield-axis-tool/laiwantingS4.png" } },
-    "狼卫": { avatar: "Sanatazm/endfield-axis-tool/langwei.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/langweiS2.png", "连携技": "Sanatazm/endfield-axis-tool/langweiS3.png", "终结技": "Sanatazm/endfield-axis-tool/langweiS4.png" } },
-    "黎风": { avatar: "Sanatazm/endfield-axis-tool/lifeng.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/lifengS2.png", "连携技": "Sanatazm/endfield-axis-tool/lifengS3.png", "终结技": "Sanatazm/endfield-axis-tool/lifengS4.png" } },
-    "洛茜": { avatar: "Sanatazm/endfield-axis-tool/luoxi.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/luoxiS2.png", "连携技": "Sanatazm/endfield-axis-tool/luoxiS3.png", "终结技": "Sanatazm/endfield-axis-tool/luoxiS4.png" } },
-    "佩丽卡": { avatar: "Sanatazm/endfield-axis-tool/peilika.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/peilikaS2.png", "连携技": "Sanatazm/endfield-axis-tool/peilikaS3.png", "终结技": "Sanatazm/endfield-axis-tool/peilikaS4.png" } },
-    "秋栗": { avatar: "Sanatazm/endfield-axis-tool/qiuli.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/qiuliS2.png", "连携技": "Sanatazm/endfield-axis-tool/qiuliS3.png", "终结技": "Sanatazm/endfield-axis-tool/qiuliS4.png" } },
-    "赛希": { avatar: "Sanatazm/endfield-axis-tool/saixi.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/saixiS2.png", "连携技": "Sanatazm/endfield-axis-tool/saixiS3.png", "终结技": "Sanatazm/endfield-axis-tool/saixiS4.png" } },
-    "汤汤": { avatar: "Sanatazm/endfield-axis-tool/tangtang.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/tangtangS2.png", "连携技": "Sanatazm/endfield-axis-tool/tangtangS3.png", "终结技": "Sanatazm/endfield-axis-tool/tangtangS4.png" } },
-    "伊冯": { avatar: "Sanatazm/endfield-axis-tool/yifeng.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/yifengS2.png", "连携技": "Sanatazm/endfield-axis-tool/yifengS3.png", "终结技": "Sanatazm/endfield-axis-tool/yifengS4.png" } },
-    "萤石": { avatar: "Sanatazm/endfield-axis-tool/yingshi.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/yingshiS2.png", "连携技": "Sanatazm/endfield-axis-tool/yingshiS3.png", "终结技": "Sanatazm/endfield-axis-tool/yingshiS4.png" } },
-    "余烬": { avatar: "Sanatazm/endfield-axis-tool/yujin.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/yujinS2.png", "连携技": "Sanatazm/endfield-axis-tool/yujinS3.png", "终结技": "Sanatazm/endfield-axis-tool/yujinS4.png" } },
-    "昼雪": { avatar: "Sanatazm/endfield-axis-tool/zhouxue.png", skills: { "重击": "", "战技": "Sanatazm/endfield-axis-tool/zhouxueS2.png", "连携技": "Sanatazm/endfield-axis-tool/zhouxueS3.png", "终结技": "Sanatazm/endfield-axis-tool/zhouxueS4.png" } }
-};
-const attrHex = { '物理': '#A38D73', '电磁': '#DEA701', '寒冷': '#00ABB5', '自然': '#A0C718', '灼热': '#FF633D' };
-const skillAttrMap = {
-    "梨诺": { "重击": "电磁", "战技": "电磁", "连携技": "电磁", "终结技": "电磁" },
-    "诀": { "重击": "自然", "战技": "自然", "连携技": "自然", "终结技": "自然" },
-    "卡缪": { "重击": "灼热", "战技": "灼热", "连携技": "灼热", "终结技": "灼热" },
-    "弭弗": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "物理" },
-    "庄方宜": { "重击": "电磁", "战技": "电磁", "连携技": "电磁", "终结技": "电磁" },
-    "阿列什": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "寒冷" },
-    "埃特拉": { "重击": "物理", "战技": "寒冷", "连携技": "物理", "终结技": "物理" },
-    "艾尔黛拉": { "重击": "自然", "战技": "自然", "连携技": "自然", "终结技": "自然" },
-    "艾维文娜": { "重击": "物理", "战技": "电磁", "连携技": "电磁", "终结技": "电磁" },
-    "安塔尔": { "重击": "电磁", "战技": "电磁", "连携技": "电磁", "终结技": "电磁" },
-    "别礼": { "重击": "寒冷", "战技": "寒冷", "连携技": "寒冷", "终结技": "寒冷" },
-    "陈千语": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "物理" },
-    "大潘": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "物理" },
-    "管理员": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "物理" },
-    "弧光": { "重击": "物理", "战技": "电磁", "连携技": "物理", "终结技": "电磁" },
-    "洁尔佩塔": { "重击": "自然", "战技": "自然", "连携技": "自然", "终结技": "自然" },
-    "骏卫": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "物理" },
-    "卡契尔": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "物理" },
-    "莱万汀": { "重击": "灼热", "战技": "灼热", "连携技": "灼热", "终结技": "灼热" },
-    "狼卫": { "重击": "灼热", "战技": "灼热", "连携技": "灼热", "终结技": "灼热" },
-    "黎风": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "物理" },
-    "洛茜": { "重击": "物理", "战技": "物理", "连携技": "物理", "终结技": "灼热" },
-    "佩丽卡": { "重击": "电磁", "战技": "电磁", "连携技": "电磁", "终结技": "电磁" },
-    "秋栗": { "重击": "物理", "战技": "灼热", "连携技": "物理", "终结技": "灼热" },
-    "赛希": { "重击": "寒冷", "战技": "寒冷", "连携技": "寒冷", "终结技": "寒冷" },
-    "汤汤": { "重击": "寒冷", "战技": "寒冷", "连携技": "寒冷", "终结技": "寒冷" },
-    "伊冯": { "重击": "寒冷", "战技": "寒冷", "连携技": "寒冷", "终结技": "寒冷" },
-    "萤石": { "重击": "自然", "战技": "自然", "连携技": "自然", "终结技": "自然" },
-    "余烬": { "重击": "物理", "战技": "灼热", "连携技": "物理", "终结技": "灼热" },
-    "昼雪": { "重击": "物理", "战技": "寒冷", "连携技": "寒冷", "终结技": "寒冷" }
-};
-const orderedChars = ["梨诺","诀","卡缪","弭弗","庄方宜", "阿列什", "埃特拉", "艾尔黛拉", "艾维文娜", "安塔尔", "别礼", "陈千语", "大潘", "管理员", "弧光", "洁尔佩塔", "骏卫", "卡契尔", "莱万汀", "狼卫", "黎风", "洛茜", "佩丽卡", "秋栗", "赛希", "汤汤", "伊冯", "萤石", "余烬", "昼雪"];
+const SKILL_TYPES = window.axisData.skillTypes;
+const charAssets = window.axisData.charAssets;
+const attrHex = window.axisData.attrHex;
+const skillAttrMap = window.axisData.skillAttrMap;
+const orderedChars = window.axisData.orderedChars;
 
 function getFullUrl(path) {
     if(!path) return "";

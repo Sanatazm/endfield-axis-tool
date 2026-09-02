@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build:data": "node scripts/build-data.cjs",
+    "validate:data": "node scripts/validate-data.cjs"
+  },
+  "private": true
+}
