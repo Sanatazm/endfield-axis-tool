@@ -287,6 +287,15 @@
         "连携技": "Sanatazm/endfield-axis-tool/zhouxueS3.png",
         "终结技": "Sanatazm/endfield-axis-tool/zhouxueS4.png"
       }
+    },
+    "提弗洛斯": {
+      "avatar": "Sanatazm/endfield-axis-tool/typhoea.c68596a8.png",
+      "skills": {
+        "重击": "",
+        "战技": "Sanatazm/endfield-axis-tool/tifengS2.png",
+        "连携技": "Sanatazm/endfield-axis-tool/tifengS3.png",
+        "终结技": "Sanatazm/endfield-axis-tool/tifengS4.png"
+      }
     }
   },
   "attrHex": {
@@ -476,9 +485,16 @@
       "战技": "寒冷",
       "连携技": "寒冷",
       "终结技": "寒冷"
+    },
+    "提弗洛斯": {
+      "重击": "自然",
+      "战技": "自然",
+      "连携技": "自然",
+      "终结技": "自然"
     }
   },
   "orderedChars": [
+    "提弗洛斯",
     "梨诺",
     "诀",
     "卡缪",
