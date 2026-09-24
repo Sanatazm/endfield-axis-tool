@@ -297,6 +297,15 @@ window.axisData = {
         "连携技": "Sanatazm/endfield-axis-tool/tifengS3.png",
         "终结技": "Sanatazm/endfield-axis-tool/tifengS4.png"
       }
+    },
+    "噗切娜": {
+      "avatar": "Sanatazm/endfield-axis-tool/purrche.d14c39f4.png",
+      "skills": {
+        "重击": "",
+        "战技": "Sanatazm/endfield-axis-tool/S2.png",
+        "连携技": "Sanatazm/endfield-axis-tool/S3.png",
+        "终结技": "Sanatazm/endfield-axis-tool/S4.png"
+      }
     }
   },
   "attrHex": {
@@ -492,9 +501,16 @@ window.axisData = {
       "战技": "自然",
       "连携技": "自然",
       "终结技": "自然"
+    },
+    "噗切娜": {
+      "重击": "物理",
+      "战技": "自然",
+      "连携技": "物理",
+      "终结技": "物理"
     }
   },
   "orderedChars": [
+    "噗切娜",
     "提弗洛斯",
     "梨诺",
     "诀",
