@@ -306,6 +306,24 @@ window.axisData = {
         "连携技": "Sanatazm/endfield-axis-tool/S3.png",
         "终结技": "Sanatazm/endfield-axis-tool/S4.png"
       }
+    },
+    "明河": {
+      "avatar": "Sanatazm/endfield-axis-tool/minghe.d65390b1.png",
+      "skills": {
+        "重击": "",
+        "战技": "",
+        "连携技": "",
+        "终结技": ""
+      }
+    },
+    "祀": {
+      "avatar": "Sanatazm/endfield-axis-tool/jsspsi.0a31758c.png",
+      "skills": {
+        "重击": "",
+        "战技": "",
+        "连携技": "",
+        "终结技": ""
+      }
     }
   },
   "attrHex": {
@@ -507,9 +525,23 @@ window.axisData = {
       "战技": "自然",
       "连携技": "物理",
       "终结技": "物理"
+    },
+    "明河": {
+      "重击": "物理",
+      "战技": "电磁",
+      "连携技": "电磁",
+      "终结技": "电磁"
+    },
+    "祀": {
+      "重击": "寒冷",
+      "战技": "寒冷",
+      "连携技": "寒冷",
+      "终结技": "寒冷"
     }
   },
   "orderedChars": [
+    "祀",
+    "明河",
     "噗切娜",
     "提弗洛斯",
     "梨诺",
