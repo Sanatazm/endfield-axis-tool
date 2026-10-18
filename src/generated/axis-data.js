@@ -320,9 +320,9 @@ window.axisData = {
       "avatar": "Sanatazm/endfield-axis-tool/jsspsi.0a31758c.png",
       "skills": {
         "重击": "",
-        "战技": "",
-        "连携技": "",
-        "终结技": ""
+        "战技": "Sanatazm/endfield-axis-tool/icon_skill_jsspsi_01.png",
+        "连携技": "Sanatazm/endfield-axis-tool/icon_combo_skill_jsspsi_01.png",
+        "终结技": "Sanatazm/endfield-axis-tool/icon_ultimate_skill_jsspsi_01.png"
       }
     }
   },
