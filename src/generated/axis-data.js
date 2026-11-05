@@ -38,21 +38,21 @@ window.axisData = {
       }
     },
     "卡缪": {
-      "avatar": "Sanatazm/endfield-axis-tool/kamiu.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0033_camille_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/kamiuS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/kamiuS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/kamiuS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_lance.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_camille_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_camille_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_camille_01.png"
       }
     },
     "弭弗": {
-      "avatar": "Sanatazm/endfield-axis-tool/mifu.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0031_mifu_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/mifuS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/mifuS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/mifuS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_claym.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_mifu_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_mifu_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_mifu_01.png"
       }
     },
     "庄方宜": {
@@ -155,12 +155,12 @@ window.axisData = {
       }
     },
     "洁尔佩塔": {
-      "avatar": "Sanatazm/endfield-axis-tool/jieerpeita.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0013_aglina_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/jieerpeitaS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/jieerpeitaS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/jieerpeitaS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_funnel.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_aglina_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_aglina_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_aglina_01.png"
       }
     },
     "骏卫": {
@@ -200,12 +200,12 @@ window.axisData = {
       }
     },
     "黎风": {
-      "avatar": "Sanatazm/endfield-axis-tool/lifeng.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0015_lifeng_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/lifengS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/lifengS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/lifengS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_lance.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_lifeng_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_lifeng_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_lifeng_01.png"
       }
     },
     "洛茜": {
@@ -218,12 +218,12 @@ window.axisData = {
       }
     },
     "佩丽卡": {
-      "avatar": "Sanatazm/endfield-axis-tool/peilika.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0004_pelica_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/peilikaS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/peilikaS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/peilikaS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_funnel.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_pelica_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_pelica_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_pelica_01.png"
       }
     },
     "秋栗": {
@@ -272,12 +272,12 @@ window.axisData = {
       }
     },
     "余烬": {
-      "avatar": "Sanatazm/endfield-axis-tool/yujin.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0009_azrila_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/yujinS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/yujinS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/yujinS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_claym.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_azrila_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_azrila_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_azrila_01.png"
       }
     },
     "昼雪": {
@@ -308,12 +308,12 @@ window.axisData = {
       }
     },
     "明河": {
-      "avatar": "Sanatazm/endfield-axis-tool/minghe.d65390b1.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0037_minghe_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "",
-        "连携技": "",
-        "终结技": ""
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_minghe_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_minghe_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_minghe_01.png"
       }
     },
     "祀": {
@@ -540,14 +540,18 @@ window.axisData = {
     }
   },
   "orderedChars": [
-    "祀",
+    "弭弗",
     "明河",
+    "黎风",
+    "卡缪",
+    "佩丽卡",
+    "余烬",
+    "洁尔佩塔",
+    "祀",
     "噗切娜",
     "提弗洛斯",
     "梨诺",
     "诀",
-    "卡缪",
-    "弭弗",
     "庄方宜",
     "阿列什",
     "埃特拉",
@@ -559,20 +563,16 @@ window.axisData = {
     "大潘",
     "管理员",
     "弧光",
-    "洁尔佩塔",
     "骏卫",
     "卡契尔",
     "莱万汀",
     "狼卫",
-    "黎风",
     "洛茜",
-    "佩丽卡",
     "秋栗",
     "赛希",
     "汤汤",
     "伊冯",
     "萤石",
-    "余烬",
     "昼雪"
   ]
 };
