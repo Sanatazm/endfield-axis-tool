@@ -20,21 +20,21 @@ window.axisData = {
   ],
   "charAssets": {
     "梨诺": {
-      "avatar": "Sanatazm/endfield-axis-tool/linuo.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0035_liino_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/linuoS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/linuoS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/linuoS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_lance.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_liino_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_liino_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_liino_01.png"
       }
     },
     "诀": {
-      "avatar": "Sanatazm/endfield-axis-tool/jue.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0032_lizhiyan_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/jueS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/jueS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/jueS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_funnel.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_lizhiyan_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_lizhiyan_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_lizhiyan_01.png"
       }
     },
     "卡缪": {
@@ -56,102 +56,102 @@ window.axisData = {
       }
     },
     "庄方宜": {
-      "avatar": "Sanatazm/endfield-axis-tool/zhuangfangyi.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0030_zhuangfy_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/zhuangfangyiS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/zhuangfangyiS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/zhuangfangyiS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_funnel.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_zhuangfy_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_zhuangfy_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_zhuangfy_01.png"
       }
     },
     "阿列什": {
-      "avatar": "Sanatazm/endfield-axis-tool/alieshi.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0024_deepfin_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/alieshiS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/alieshiS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/alieshiS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_deepfin_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_deepfin_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_deepfin_01.png"
       }
     },
     "埃特拉": {
-      "avatar": "Sanatazm/endfield-axis-tool/aitela.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0021_whiten_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/aitelaS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/aitelaS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/aitelaS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_lance.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_whiten_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_whiten_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_whiten_01.png"
       }
     },
     "艾尔黛拉": {
-      "avatar": "Sanatazm/endfield-axis-tool/aierdaila.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0025_ardelia_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/aierdailaS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/aierdailaS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/aierdailaS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_funnel.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_ardelia_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_ardelia_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_ardelia_01.png"
       }
     },
     "艾维文娜": {
-      "avatar": "Sanatazm/endfield-axis-tool/aiweiwenna.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0012_avywen_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/aiweiwennaS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/aiweiwennaS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/aiweiwennaS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_lance.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_avywen_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_avywen_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_avywen_01.png"
       }
     },
     "安塔尔": {
-      "avatar": "Sanatazm/endfield-axis-tool/antaer.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0023_antal_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/antaerS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/antaerS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/antaerS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_funnel.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_antal_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_antal_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_antal_01.png"
       }
     },
     "别礼": {
-      "avatar": "Sanatazm/endfield-axis-tool/bieli.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0026_lastrite_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/bieliS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/bieliS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/bieliS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_claym.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_lastrite_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_lastrite_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_lastrite_01.png"
       }
     },
     "陈千语": {
-      "avatar": "Sanatazm/endfield-axis-tool/chenqianyu.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0005_chen_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/chenqianyuS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/chenqianyuS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/chenqianyuS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_chen_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_chen_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_chen_01.png"
       }
     },
     "大潘": {
-      "avatar": "Sanatazm/endfield-axis-tool/dapan.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0018_dapan_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/dapanS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/dapanS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/dapanS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_claym.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_dapan_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_dapan_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_dapan_01.png"
       }
     },
     "管理员": {
       "avatar": "Sanatazm/endfield-axis-tool/guanliyuan.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/guanliyuanS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/guanliyuanS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/guanliyuanS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_endmin_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_endmin_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_endmin_01.png"
       }
     },
     "弧光": {
-      "avatar": "Sanatazm/endfield-axis-tool/huguang.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0007_ikut_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/huguangS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/huguangS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/huguangS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_ikut_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_ikut_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_ikut_01.png"
       }
     },
     "洁尔佩塔": {
@@ -164,39 +164,39 @@ window.axisData = {
       }
     },
     "骏卫": {
-      "avatar": "Sanatazm/endfield-axis-tool/junwei.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0029_pograni_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/junweiS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/junweiS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/junweiS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_pograni_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_pograni_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_pograni_01.png"
       }
     },
     "卡契尔": {
-      "avatar": "Sanatazm/endfield-axis-tool/kaqier.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0020_meurs_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/kaqierS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/kaqierS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/kaqierS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_claym.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_meurs_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_meurs_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_meurs_01.png"
       }
     },
     "莱万汀": {
-      "avatar": "Sanatazm/endfield-axis-tool/laiwanting.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0016_laevat_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/laiwantingS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/laiwantingS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/laiwantingS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_laevat_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_laevat_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_laevat_01.png"
       }
     },
     "狼卫": {
-      "avatar": "Sanatazm/endfield-axis-tool/langwei.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0006_wolfgd_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/langweiS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/langweiS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/langweiS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_pistol.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_wolfgd_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_wolfgd_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_wolfgd_01.png"
       }
     },
     "黎风": {
@@ -209,12 +209,12 @@ window.axisData = {
       }
     },
     "洛茜": {
-      "avatar": "Sanatazm/endfield-axis-tool/luoxi.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0028_wulfa_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/luoxiS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/luoxiS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/luoxiS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_wulfa_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_wulfa_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_wulfa_01.png"
       }
     },
     "佩丽卡": {
@@ -227,48 +227,48 @@ window.axisData = {
       }
     },
     "秋栗": {
-      "avatar": "Sanatazm/endfield-axis-tool/qiuli.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0019_karin_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/qiuliS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/qiuliS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/qiuliS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_karin_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_karin_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_karin_01.png"
       }
     },
     "赛希": {
-      "avatar": "Sanatazm/endfield-axis-tool/saixi.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0011_seraph_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/saixiS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/saixiS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/saixiS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_funnel.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_seraph_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_seraph_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_seraph_01.png"
       }
     },
     "汤汤": {
-      "avatar": "Sanatazm/endfield-axis-tool/tangtang.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0027_tangtang_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/tangtangS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/tangtangS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/tangtangS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_pistol.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_tangtang_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_tangtang_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_tangtang_01.png"
       }
     },
     "伊冯": {
-      "avatar": "Sanatazm/endfield-axis-tool/yifeng.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0017_yvonne_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/yifengS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/yifengS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/yifengS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_pistol.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_yvonne_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_yvonne_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_yvonne_01.png"
       }
     },
     "萤石": {
-      "avatar": "Sanatazm/endfield-axis-tool/yingshi.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0022_bounda_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/yingshiS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/yingshiS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/yingshiS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_pistol.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_bounda_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_bounda_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_bounda_01.png"
       }
     },
     "余烬": {
@@ -281,30 +281,30 @@ window.axisData = {
       }
     },
     "昼雪": {
-      "avatar": "Sanatazm/endfield-axis-tool/zhouxue.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0014_aurora_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/zhouxueS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/zhouxueS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/zhouxueS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_claym.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_aurora_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_aurora_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_aurora_01.png"
       }
     },
     "提弗洛斯": {
-      "avatar": "Sanatazm/endfield-axis-tool/typhoea.c68596a8.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0034_typhoea_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/tifengS2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/tifengS3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/tifengS4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_funnel.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_typhoea_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_typhoea_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_typhoea_01.png"
       }
     },
     "噗切娜": {
-      "avatar": "Sanatazm/endfield-axis-tool/purrche.d14c39f4.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0038_purrche_avatar.png",
       "skills": {
-        "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/S2.png",
-        "连携技": "Sanatazm/endfield-axis-tool/S3.png",
-        "终结技": "Sanatazm/endfield-axis-tool/S4.png"
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_sword.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_purrche_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_purrche_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_purrche_01.png"
       }
     },
     "明河": {
@@ -317,13 +317,31 @@ window.axisData = {
       }
     },
     "祀": {
-      "avatar": "Sanatazm/endfield-axis-tool/jsspsi.0a31758c.png",
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0036_jsspsi_avatar.png",
+      "skills": {
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_claym.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_jsspsi_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_jsspsi_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_jsspsi_01.png"
+      }
+    },
+    "小刻": {
       "skills": {
         "重击": "",
-        "战技": "Sanatazm/endfield-axis-tool/icon_skill_jsspsi_01.png",
-        "连携技": "Sanatazm/endfield-axis-tool/icon_combo_skill_jsspsi_01.png",
-        "终结技": "Sanatazm/endfield-axis-tool/icon_ultimate_skill_jsspsi_01.png"
-      }
+        "战技": "",
+        "连携技": "",
+        "终结技": ""
+      },
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0040_sweetpie_avatar.png"
+    },
+    "米米诺": {
+      "skills": {
+        "重击": "",
+        "战技": "",
+        "连携技": "",
+        "终结技": ""
+      },
+      "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0039_mimino_avatar.png"
     }
   },
   "attrHex": {
@@ -540,39 +558,41 @@ window.axisData = {
     }
   },
   "orderedChars": [
+    "骏卫",
+    "汤汤",
+    "别礼",
+    "洛茜",
+    "艾尔黛拉",
+    "阿列什",
+    "安塔尔",
+    "噗切娜",
+    "埃特拉",
+    "卡契尔",
+    "梨诺",
+    "提弗洛斯",
+    "萤石",
+    "伊冯",
+    "莱万汀",
+    "祀",
+    "诀",
+    "昼雪",
+    "秋栗",
+    "艾维文娜",
+    "庄方宜",
+    "赛希",
+    "大潘",
+    "狼卫",
+    "陈千语",
+    "弧光",
+    "管理员",
+    "米米诺",
+    "小刻",
     "弭弗",
     "明河",
     "黎风",
     "卡缪",
     "佩丽卡",
     "余烬",
-    "洁尔佩塔",
-    "祀",
-    "噗切娜",
-    "提弗洛斯",
-    "梨诺",
-    "诀",
-    "庄方宜",
-    "阿列什",
-    "埃特拉",
-    "艾尔黛拉",
-    "艾维文娜",
-    "安塔尔",
-    "别礼",
-    "陈千语",
-    "大潘",
-    "管理员",
-    "弧光",
-    "骏卫",
-    "卡契尔",
-    "莱万汀",
-    "狼卫",
-    "洛茜",
-    "秋栗",
-    "赛希",
-    "汤汤",
-    "伊冯",
-    "萤石",
-    "昼雪"
+    "洁尔佩塔"
   ]
 };

@@ -386,7 +386,7 @@ const charData = orderedChars.map(name => {
     return {
         name,
         avatar: getFullUrl(assets.avatar) || `https://via.placeholder.com/100/444/fff?text=${name[0]}`,
-        skills: Object.keys(skillAttrMap[name]).map(type => ({
+        skills: Object.keys(skillAttrMap[name] || {}).map(type => ({
             type, attr: skillAttrMap[name][type],
             icon: getFullUrl(assets.skills ? assets.skills[type] : "") || "https://img.icons8.com/ios-filled/100/ffffff/sword.png"
         }))
