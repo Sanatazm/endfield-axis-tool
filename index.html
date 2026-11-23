@@ -386,9 +386,9 @@ const charData = orderedChars.map(name => {
     return {
         name,
         avatar: getFullUrl(assets.avatar) || `https://via.placeholder.com/100/444/fff?text=${name[0]}`,
-        skills: Object.keys(skillAttrMap[name] || {}).map(type => ({
-            type, attr: skillAttrMap[name][type],
-            icon: getFullUrl(assets.skills ? assets.skills[type] : "") || "https://img.icons8.com/ios-filled/100/ffffff/sword.png"
+        skills: SKILL_TYPES.map(type => ({
+            type, attr: skillAttrMap[name]?.[type] || '',
+            icon: getFullUrl(assets.skills ? assets.skills[type] : "") || ""
         }))
     };
 });
@@ -835,7 +835,7 @@ function createSkillCard(initData = null) {
         as = "display:flex";
     } else {
         // 战技、连携技、终结技 根据逻辑分配 shapeClass
-        ch = `<div class="attribute-overlay ${shapeClass}" style="background-color:${initData ? initData.color : '#00ABB5'}"></div><img crossOrigin="anonymous" class="skill-icon" src="${initData ? initData.icon : 'https://img.icons8.com/ios-filled/100/ffffff/sword.png'}">`;
+        ch = `<div class="attribute-overlay ${shapeClass}" style="background-color:${initData ? initData.color : '#00ABB5'}"></div>${initData && !initData.icon ? '' : `<img crossOrigin="anonymous" class="skill-icon" src="${initData ? initData.icon : 'https://img.icons8.com/ios-filled/100/ffffff/sword.png'}">`}`;
         as = "display:flex";
     }
     const rm = card.dataset.skillRemark;
@@ -1014,7 +1014,7 @@ function selectSkill(optEl, charName, avatarUrl, skillType, iconUrl, attrType) {
     const img = avatarBox.querySelector('.target-avatar'); img.src = avatarUrl; img.style.display = 'block';
     const wrap = currentTargetCard.querySelector('.skill-circle-wrapper');
     if (skillType === "重击") { wrap.innerHTML = `<div class="attribute-overlay shape-arc" style="background-color:${attrHex[attrType]}"></div><div class="skill-text-icon">重击</div>`; }
-    else { wrap.innerHTML = `<div class="attribute-overlay ${skillType==='终结技'?'shape-full':'shape-arc'}" style="background-color:${attrHex[attrType]}"></div><img crossOrigin="anonymous" class="skill-icon" src="${iconUrl}">`; }
+    else { wrap.innerHTML = `<div class="attribute-overlay ${skillType==='终结技'?'shape-full':'shape-arc'}" style="background-color:${attrHex[attrType]}"></div>${iconUrl ? `<img crossOrigin="anonymous" class="skill-icon" src="${iconUrl}">` : ''}`; }
     const tx = currentTargetCard.querySelector('.skill-name-input'); tx.innerHTML = `${skillType}`; resizeSkillName(tx);
     updateLocalPreview(currentTargetCard.closest('.skill-slot'));
 }
