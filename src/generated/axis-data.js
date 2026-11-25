@@ -327,10 +327,10 @@ window.axisData = {
     },
     "小刻": {
       "skills": {
-        "重击": "",
-        "战技": "",
-        "连携技": "",
-        "终结技": ""
+        "重击": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_attack_lance.png",
+        "战技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_skill_sweetpie_01.png",
+        "连携技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_combo_skill_sweetpie_01.png",
+        "终结技": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/icon_ultimate_skill_sweetpie_01.png"
       },
       "avatar": "https://raw.githubusercontent.com/Sanatazm/endfield-axis-tool/main/sync_chr_0040_sweetpie_avatar.png"
     },
